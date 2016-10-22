@@ -25,7 +25,7 @@ public class SlackReceiverChannelAdapter {
     public void registeringAListener()
     {
     	// springintegration-bot // xoxb-93052495079-GAIRWeYvDctswznOEZ6kckQL
-    	SlackSession session = SlackSessionFactory.createWebSocketSlackSession("xoxb-93052495079-GAIRWeYvDctswznOEZ6kckQL");
+    	SlackSession session = SlackSessionFactory.createWebSocketSlackSession("<token>");
         // first define the listener
         SlackMessagePostedListener messagePostedListener = new SlackMessagePostedListener()
         {

@@ -17,7 +17,7 @@ public class SlackContentService {
     public void sendMessageToAChannel(String subject)
     {
     	// springintegration-bot // xoxb-93052495079-GAIRWeYvDctswznOEZ6kckQL
-    	SlackSession session = SlackSessionFactory.createWebSocketSlackSession("xoxb-93052495079-GAIRWeYvDctswznOEZ6kckQL");
+    	SlackSession session = SlackSessionFactory.createWebSocketSlackSession("<token>");
     	try {
 			session.connect();
 		} catch (IOException e) {
